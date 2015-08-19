@@ -25,7 +25,7 @@
     <ion-side-menus>
 
       <!-- Nav bar -->
-      <ion-nav-bar class="bar-positive">
+      <ion-nav-bar class="bar-assertive">
         <ion-nav-buttons side="left">
           <!-- Toggle left side menu -->
           <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
@@ -35,63 +35,7 @@
 
       <!-- Left menu -->
       <ion-side-menu side="left">
-        <ion-content>
-          <div class="list">
-
-            <div class="item item-divider">
-              Mon espace
-            </div>
-
-            <a class="item item-icon-left" href="#">
-              <i class="icon ion-person"></i>
-              Mon profil
-            </a>
-
-            <a class="item item-icon-left" href="#">
-              <i class="icon ion-stats-bars"></i>
-              Mes stats
-            </a>
-
-            <div class="item item-divider">
-              Entrainement
-            </div>
-
-            <a class="item item-icon-left" href="#">
-              <i class="icon ion-flag"></i>
-              Question du jour
-            </a>
-
-            <a class="item item-icon-left" href="#">
-              <i class="icon ion-medkit"></i>
-              Questions par thème
-            </a>
-
-            <a class="item item-icon-left" href="#">
-              <i class="icon ion-calendar"></i>
-              Cas concrets
-            </a>
-
-            <div class="item item-divider">
-              Autre
-            </div>
-
-            <a class="item item-icon-left" href="#">
-              <i class="icon ion-chatbubble-working"></i>
-              Remarques/Suggestions
-            </a>
-
-            <a class="item item-icon-left" href="#">
-              <i class="icon ion-bug"></i>
-              Remonter un bug
-            </a>
-
-            <a class="item item-icon-left" href="#">
-              <i class="icon ion-iphone"></i>
-              A propos de cette app
-            </a>
-
-          </div>
-        </ion-content>
+        <ng-include src="'templates/left-side-menu.html'"></ng-include>
       </ion-side-menu>
 
       <ion-side-menu-content>
