@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
-
+    <title>Questions de Sarce</title>
 
     <!-- compiled css output -->
     <link href="css/ionic.app.css" rel="stylesheet">
@@ -20,17 +19,9 @@
     <script src="js/controllers.js"></script>
     <script src="js/services.js"></script>
   </head>
+
   <body ng-app="starter">
-    <!--
-      The nav bar that will be updated as we navigate between views.
-    -->
 
-
-    <!--
-      The views will be rendered in the <ion-nav-view> directive below
-      Templates are in the /templates folder (but you could also
-      have templates inline in this html file if you'd like).
-    -->
     <ion-side-menus>
 
       <!-- Nav bar -->
@@ -44,7 +35,63 @@
 
       <!-- Left menu -->
       <ion-side-menu side="left">
-        <p>Hello Menu!</p>
+        <ion-content>
+          <div class="list">
+
+            <div class="item item-divider">
+              Mon espace
+            </div>
+
+            <a class="item item-icon-left" href="#">
+              <i class="icon ion-person"></i>
+              Mon profil
+            </a>
+
+            <a class="item item-icon-left" href="#">
+              <i class="icon ion-stats-bars"></i>
+              Mes stats
+            </a>
+
+            <div class="item item-divider">
+              Entrainement
+            </div>
+
+            <a class="item item-icon-left" href="#">
+              <i class="icon ion-flag"></i>
+              Question du jour
+            </a>
+
+            <a class="item item-icon-left" href="#">
+              <i class="icon ion-medkit"></i>
+              Questions par thème
+            </a>
+
+            <a class="item item-icon-left" href="#">
+              <i class="icon ion-calendar"></i>
+              Cas concrets
+            </a>
+
+            <div class="item item-divider">
+              Autre
+            </div>
+
+            <a class="item item-icon-left" href="#">
+              <i class="icon ion-chatbubble-working"></i>
+              Remarques/Suggestions
+            </a>
+
+            <a class="item item-icon-left" href="#">
+              <i class="icon ion-bug"></i>
+              Remonter un bug
+            </a>
+
+            <a class="item item-icon-left" href="#">
+              <i class="icon ion-iphone"></i>
+              A propos de cette app
+            </a>
+
+          </div>
+        </ion-content>
       </ion-side-menu>
 
       <ion-side-menu-content>
