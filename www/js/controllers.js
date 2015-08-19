@@ -1,5 +1,14 @@
 angular.module('starter.controllers', [])
 
+.controller('MenuController', function($scope, $ionicSideMenuDelegate) {
+  $scope.toggleLeft = function() {
+    $ionicSideMenuDelegate.toggleLeft();
+  };
+})
+
+.controller('HomeController', function($scope) {})
+.controller('QuestionsController', function($scope) {})
+
 .controller('DashCtrl', function($scope) {})
 
 .controller('ChatsCtrl', function($scope, Chats) {
