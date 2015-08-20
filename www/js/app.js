@@ -52,6 +52,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     controller: 'QuestionsController'
   })
 
+  .state('profile', {
+    url: '/profile',
+    templateUrl: 'templates/profile.html'
+  })
+
   // .state('tab.dash', {
   //   url: '/dash',
   //   views: {

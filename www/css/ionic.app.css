@@ -18,6 +18,12 @@ $dark:                            #444 !default;
 .right {
   float: right; }
 
+font-face {
+  font-family: "captureit";
+  src: url("../www/fonts/Capture it.ttf") format("opentype");
+  /* Make sure you defined the correct path, which is related to
+        the location of your file `my_css.css` */ }
+
 /*!
   Ionicons, v2.0.1
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -7702,3 +7708,11 @@ a.button {
   opacity: 0;
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
+
+.pane {
+  background-color: #444; }
+  .pane h3 {
+    color: white; }
+
+.title, h1, h2, h3, .left-side-menu {
+  font-family: "captureit"; }
