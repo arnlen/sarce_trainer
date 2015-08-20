@@ -15,14 +15,13 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
-.right {
-  float: right; }
-
 font-face {
   font-family: "captureit";
-  src: url("../www/fonts/Capture it.ttf") format("opentype");
-  /* Make sure you defined the correct path, which is related to
-        the location of your file `my_css.css` */ }
+  src: url("../www/fonts/Capture it.ttf") format("opentype"); }
+
+font-face {
+  font-family: "coalition";
+  src: url("../www/fonts/Coalition_v2.ttf") format("opentype"); }
 
 /*!
   Ionicons, v2.0.1
@@ -7709,6 +7708,15 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+.right {
+  float: right; }
+
+.dark {
+  color: #444; }
+
+.light {
+  color: #fff; }
+
 .pane {
   background-color: #444; }
   .pane h3 {
@@ -7716,3 +7724,37 @@ a.button {
 
 .title, h1, h2, h3, .left-side-menu {
   font-family: "captureit"; }
+
+.introduction-content .scroll {
+  height: 100%; }
+  .introduction-content .scroll .introduction-slider {
+    height: 100%; }
+    .introduction-content .scroll .introduction-slider h1 {
+      text-align: center;
+      padding: 40px 20px; }
+    .introduction-content .scroll .introduction-slider h3 {
+      font-family: "coalition";
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+      background-color: rgba(0, 0, 0, 0.3);
+      margin: 0;
+      padding: 20px 20px 50px;
+      position: absolute;
+      bottom: 0; }
+    .introduction-content .scroll .introduction-slider .box {
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #444; }
+    .introduction-content .scroll .introduction-slider .daily-question-1 {
+      background-image: url("../img/introduction-slide-1.jpg");
+      background-position: left; }
+    .introduction-content .scroll .introduction-slider .daily-question-2 {
+      background-image: url("../img/introduction-slide-1.jpg");
+      background-position: right; }
+    .introduction-content .scroll .introduction-slider .practice {
+      background-image: url("../img/introduction-slide-3.jpg");
+      background-position: right; }
+    .introduction-content .scroll .introduction-slider .social {
+      background-image: url("../img/introduction-slide-4.jpg");
+      background-position: top; }

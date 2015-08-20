@@ -9,3 +9,57 @@
 .title, h1, h2, h3, .left-side-menu {
   font-family: "captureit";
 }
+
+.introduction-content {
+
+  .scroll {
+    height: 100%;
+
+    .introduction-slider {
+      height: 100%;
+
+      h1 {
+        text-align: center;
+        padding: 40px 20px;
+      }
+
+      h3 {
+        font-family: "coalition";
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        background-color: hsla(240, 0, 0, 0.3);
+        margin: 0;
+        padding: 20px 20px 50px;
+        position: absolute;
+        bottom: 0;
+      }
+
+      .box {
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: $dark;
+      }
+
+      .daily-question-1 {
+        background-image: url("../img/introduction-slide-1.jpg");
+        background-position: left;
+      }
+
+      .daily-question-2 {
+        background-image: url("../img/introduction-slide-1.jpg");
+        background-position: right;
+      }
+
+      .practice {
+        background-image: url("../img/introduction-slide-3.jpg");
+        background-position: right;
+      }
+
+      .social {
+        background-image: url("../img/introduction-slide-4.jpg");
+        background-position: top;
+      }
+    }
+  }
+}

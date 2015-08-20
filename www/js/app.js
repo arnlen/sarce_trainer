@@ -57,6 +57,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     templateUrl: 'templates/profile.html'
   })
 
+  .state('introduction', {
+    url: '/introduction',
+    templateUrl: 'templates/introduction-slide-box.html'
+  })
+
   // .state('tab.dash', {
   //   url: '/dash',
   //   views: {
@@ -97,6 +102,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   // })
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/home');
+  $urlRouterProvider.otherwise('/introduction');
 
 });

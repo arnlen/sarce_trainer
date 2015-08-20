@@ -19,8 +19,8 @@ $dark:                            #444 !default;
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
-@import "tools";
 @import "fonts";
 @import "www/lib/ionic/scss/ionic";
+@import "tools";
 @import "custom";
 
