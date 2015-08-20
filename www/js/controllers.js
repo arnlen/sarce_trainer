@@ -1,8 +1,13 @@
 angular.module('starter.controllers', [])
 
-.controller('IntroductionController', function($rootScope) {})
+.controller('IntroductionController', function($ionicHistory) {
+  $ionicHistory.nextViewOptions({
+    disableAnimate: false,
+    historyRoot: true
+  });
+})
 
-.controller('HomeController', function($scope, $rootScope, $state) {})
+.controller('HomeController', function() {})
 
 .controller('QuestionsController', function($scope, Questions) {
   $scope.questions = Questions.all();

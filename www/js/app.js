@@ -59,7 +59,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
   .state('introduction', {
     url: '/introduction',
-    templateUrl: 'templates/introduction-slide-box.html'
+    templateUrl: 'templates/introduction-slide-box.html',
+    controller: 'IntroductionController'
   })
 
   // .state('tab.dash', {
