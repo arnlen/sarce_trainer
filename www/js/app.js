@@ -40,27 +40,26 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
   // Each tab has its own nav history stack:
 
+  .state('introduction', {
+    url: '/introduction',
+    templateUrl: 'templates/introduction-slide-box.html',
+    controller: 'IntroductionController'
+  })
+
   .state('home', {
     url: '/home',
     templateUrl: 'templates/home.html',
     controller: 'HomeController'
   })
 
-  .state('questions', {
-    url: '/questions',
-    templateUrl: 'templates/questions.html',
-    controller: 'QuestionsController'
+  .state('question', {
+    url: '/question',
+    templateUrl: 'templates/question.html',
   })
 
   .state('profile', {
     url: '/profile',
     templateUrl: 'templates/profile.html'
-  })
-
-  .state('introduction', {
-    url: '/introduction',
-    templateUrl: 'templates/introduction-slide-box.html',
-    controller: 'IntroductionController'
   })
 
   // .state('tab.dash', {
