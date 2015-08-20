@@ -1,9 +1,9 @@
 font-face {
   font-family: "captureit";
-  src: url("../www/fonts/Capture it.ttf") format("opentype");
+  src: url("#{$ionicons-font-path}/Capture it.ttf") format("opentype");
 }
 
 font-face {
   font-family: "coalition";
-  src: url("../www/fonts/Coalition_v2.ttf") format("opentype");
+  src: url("#{$ionicons-font-path}/Coalition_v2.ttf") format("opentype");
 }
