@@ -7700,11 +7700,11 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-font-face {
+@font-face {
   font-family: "captureit";
   src: url("../lib/ionic/fonts/Capture it.ttf") format("opentype"); }
 
-font-face {
+@font-face {
   font-family: "coalition";
   src: url("../lib/ionic/fonts/Coalition_v2.ttf") format("opentype"); }
 
