@@ -1,9 +1,9 @@
 <ion-view view-title="Question du jour">
-  <ion-content class="padding">
+  <ion-content class="padding question">
 
     <div class="card">
       <div class="item item-text-wrap">
-        Quels sont les moyens de limiter le risque radioactif ?
+        Quels sont les moyens de limiter le risque radioactif ? (réponse multiple)
       </div>
     </div>
 
@@ -23,7 +23,7 @@
       </li>
       <li class="item item-checkbox">
          <label class="checkbox"><input type="checkbox"></label>
-         Eau
+         Lumière
       </li>
       <li class="item item-checkbox">
          <label class="checkbox"><input type="checkbox"></label>
@@ -32,9 +32,9 @@
 
     </ul>
 
-    <button class="button button-full button-positive">
+    <a ui-sref="answer" class="button button-full button-positive">
       Valider
-    </button>
+    </a>
 
   </ion-content>
 </ion-view>

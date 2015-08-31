@@ -57,6 +57,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     templateUrl: 'templates/question.html',
   })
 
+  .state('answer', {
+    url: '/answer',
+    templateUrl: 'templates/answer.html',
+  })
+
   .state('profile', {
     url: '/profile',
     templateUrl: 'templates/profile.html'
