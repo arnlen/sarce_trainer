@@ -7717,14 +7717,6 @@ a.button {
 .light {
   color: #fff; }
 
-.pane {
-  background-color: #444; }
-  .pane h3 {
-    color: white; }
-
-.title, h1, h2, h3, .left-side-menu {
-  font-family: "captureit"; }
-
 .introduction-content .scroll {
   height: 100%; }
   .introduction-content .scroll .introduction-slider {
@@ -7775,3 +7767,16 @@ a.button {
     .introduction-content .scroll .introduction-slider .social {
       background-image: url("../img/introduction-slide-4.jpg");
       background-position: top; }
+
+.home .card .item {
+  text-align: center; }
+  .home .card .item img {
+    max-width: 50%; }
+
+.pane {
+  background-color: #444; }
+  .pane h3 {
+    color: white; }
+
+.title, h1, h2, h3, .left-side-menu {
+  font-family: "captureit"; }
