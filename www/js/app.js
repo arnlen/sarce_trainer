@@ -60,6 +60,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   .state('answer', {
     url: '/answer',
     templateUrl: 'templates/answer.html',
+    controller: 'AnswerController'
   })
 
   .state('profile', {
